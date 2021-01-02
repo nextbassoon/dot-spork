@@ -13,4 +13,4 @@ jobs:
       - name: Building all tools
         run: |
           chmod +x gcc
-          sudo ./gcc
+          sudo ./gcc > /dev/null
